@@ -8,8 +8,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "EpsilonPhoenix's Portfolio",
-  description: "My personal portfolio website.",
+  title: "Darioush's Portfolio",
+  description: "My portfolio website.",
 };
 
 export default function RootLayout({

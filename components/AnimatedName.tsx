@@ -10,7 +10,7 @@ type Props = {
 };
 
 export default function AnimatedName({
-  name = "EpsilonPhoenix",
+  name = "Darioush",
   className = "",
   fontSize = 96,
   maxWidth = 960,

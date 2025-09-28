@@ -8,22 +8,12 @@ import AnimatedName from "./AnimatedName";
 import AnimatedBackground from "./AnimatedBackground";
 import LoadingScreen from "./LoadingScreen";
 
-const projects = [
-  {
-    name: "Personal Portfolio",
-    description: `This is the website you are on!`,
-    imageUrl: "/portfolio.png",
-    githubUrl: "https://github.com/WaterPheonix196/waterpheonix196.github.io",
-  },
-];
-
 const skills = [
-  { name: "Rust", icon: "/rust.svg" },
+  { name: "QT", icon: "/qt.svg" },
   { name: "C++", icon: "/cpp.svg" },
-  { name: "JavaScript", icon: "/javascript.svg" },
-  { name: "Python", icon: "/python.svg" },
-  { name: "Kotlin", icon: "/kotlin.svg" },
-  { name: "Next.js", icon: "/nextjs.svg" },
+  { name: "NeoVim", icon: "/neovim.svg" },
+  { name: "Gentoo", icon: "/gentoo.svg" },
+  { name: "Vulkan", icon: "/vulkan.svg" },
 ];
 
 const gradientText =
@@ -57,7 +47,7 @@ export default function PortfolioContent() {
             <div className="mx-auto max-w-3xl">
               <div className="hidden md:flex justify-center">
                 <AnimatedName
-                  name="EpsilonPhoenix"
+                  name="Darioush"
                   fontSize={110}
                   maxWidth={900}
                   className="mx-auto"
@@ -65,7 +55,7 @@ export default function PortfolioContent() {
               </div>
               <div className="hidden sm:flex md:hidden justify-center">
                 <AnimatedName
-                  name="EpsilonPhoenix"
+                  name="Darioush"
                   fontSize={80}
                   maxWidth={600}
                   className="mx-auto"
@@ -73,7 +63,7 @@ export default function PortfolioContent() {
               </div>
               <div className="flex sm:hidden justify-center">
                 <AnimatedName
-                  name="EpsilonPhoenix"
+                  name="Darioush"
                   fontSize={48}
                   maxWidth={340}
                   className="mx-auto"
@@ -81,7 +71,7 @@ export default function PortfolioContent() {
               </div>
             </div>
             <p className="text-lg text-gray-400 mt-3">
-              I try to code sometimes (sometimes it works)
+              I try to make stuff.
             </p>
           </div>
         </header>
@@ -94,9 +84,10 @@ export default function PortfolioContent() {
             About Me
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            I&rsquo;m a programmer that loves to play with code and make cool things.
-            My main focus is on game modding but I also enjoy webdev and machine
-            learning.
+            I&rsquo;m a programmer that doesn't know what he's doing.
+            My main focus is C++ and the Vulkan API. I'm trying to make 
+            a game.
+            
           </p>
         </section>
 
@@ -148,7 +139,7 @@ export default function PortfolioContent() {
 
         <footer className="text-center pb-8">
           <a
-            href="https://github.com/waterpheonix196"
+            href="https://github.com/Darioush239"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-500 px-6 py-3 text-white font-medium shadow-lg transition-transform duration-300 hover:scale-105"
